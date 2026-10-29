@@ -5,7 +5,15 @@
 }
 
 #container {
-    height: 100dvh;
-    width: 100vw;
-    background-color: #9acd32;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100dvh;
+  width: 100vw;
+  background-color: #9acd32;
+}
+
+.cell-block {
+  width: calc(100% / 16);
+  height: calc(100% / 16);
+  border: 1px solid #ddd;
 }
